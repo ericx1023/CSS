@@ -1,0 +1,308 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+body {
+  font-family: 'Droid Sans',Helvetica,Verdana, Arial, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../images/bg_html.jpg);
+}
+/* line 15, ../sass/screen.scss */
+body a {
+  text-decoration: none;
+  color: #01A5CA;
+}
+/* line 19, ../sass/screen.scss */
+body a:hover {
+  font-weight: bold;
+  opacity: 0.7;
+}
+/* line 24, ../sass/screen.scss */
+body .header {
+  top: 0px;
+  left: 90px;
+  margin: 0 auto;
+  width: 940px;
+  text-align: right;
+}
+/* line 30, ../sass/screen.scss */
+body .header .head_logo {
+  float: left;
+  padding: 30px 180px 30px 20px;
+}
+/* line 35, ../sass/screen.scss */
+body .header .head_social {
+  display: inline;
+  padding: 30px 5px 40px 5px;
+  float: right;
+  height: 23px;
+}
+/* line 41, ../sass/screen.scss */
+body .header ul {
+  padding: 100px 10px 30px 0px;
+}
+/* line 43, ../sass/screen.scss */
+body .header ul li {
+  display: inline;
+  padding-left: 30px;
+  font-size: 0.9em;
+}
+/* line 47, ../sass/screen.scss */
+body .header ul li a {
+  color: black;
+}
+/* line 50, ../sass/screen.scss */
+body .header ul li a:hover {
+  color: #01A5CA;
+  font-weight: normal;
+  opacity: 0.7;
+}
+/* line 60, ../sass/screen.scss */
+body .slider {
+  clear: left;
+  width: 940px;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin: auto;
+  height: 410px;
+}
+/* line 67, ../sass/screen.scss */
+body .slider .slider_left {
+  float: left;
+  width: 640px;
+}
+/* line 71, ../sass/screen.scss */
+body .slider .slider_right {
+  float: right;
+  text-align: left;
+  width: 300px;
+  height: 415px;
+}
+/* line 84, ../sass/screen.scss */
+body .slider .slider_right .slider_bigText {
+  padding: 45px 0px 30px 45px;
+  color: #01A5CA;
+  font-size: 1.8em;
+}
+/* line 89, ../sass/screen.scss */
+body .slider .slider_right .slider_smlText {
+  color: white;
+  padding: 0px 45px 30px 45px;
+  font-weight: normal;
+  line-height: 1.8em;
+}
+/* line 95, ../sass/screen.scss */
+body .slider .slider_right .slider_btn {
+  font-size: 1.1em;
+  border: none;
+  margin-left: 45px;
+  text-align: center;
+  background-color: rgba(100, 100, 100, 0.85);
+  color: white;
+  width: 130px;
+  height: 45px;
+}
+/* line 108, ../sass/screen.scss */
+body .content {
+  margin: 50px auto;
+  width: 940px;
+}
+/* line 113, ../sass/screen.scss */
+body .content .content_intro {
+  background-color: white;
+  padding: 50px;
+  line-height: 1.8em;
+}
+/* line 127, ../sass/screen.scss */
+body .content .content_feature {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+/* line 133, ../sass/screen.scss */
+body .content .content_feature .content_feature_left {
+  background-color: #fff;
+  float: left;
+  width: 650px;
+  height: 450px;
+}
+/* line 138, ../sass/screen.scss */
+body .content .content_feature .content_feature_left h2 {
+  font-size: 1.5em;
+  padding-top: 35px;
+  padding-left: 50px;
+}
+/* line 143, ../sass/screen.scss */
+body .content .content_feature .content_feature_left span {
+  color: #01A5CA;
+}
+/* line 147, ../sass/screen.scss */
+body .content .content_feature .content_feature_left .content_feature_left_event1, body .content .content_feature .content_feature_left .content_feature_left_event2 {
+  height: 140px;
+  padding: 20px 20px 10px 50px;
+  line-height: 1.3em;
+}
+/* line 151, ../sass/screen.scss */
+body .content .content_feature .content_feature_left .content_feature_left_event1 img, body .content .content_feature .content_feature_left .content_feature_left_event2 img {
+  float: left;
+}
+/* line 155, ../sass/screen.scss */
+body .content .content_feature .content_feature_left .content_feature_left_event1 p, body .content .content_feature .content_feature_left .content_feature_left_event2 p {
+  margin-left: 185px;
+  padding-left: 25px;
+}
+/* line 159, ../sass/screen.scss */
+body .content .content_feature .content_feature_left .content_feature_left_event1 h4, body .content .content_feature .content_feature_left .content_feature_left_event2 h4 {
+  margin-left: 185px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+/* line 167, ../sass/screen.scss */
+body .content .content_feature .content_feature_right {
+  background-color: white;
+  float: right;
+  width: 290px;
+  height: 450px;
+}
+/* line 174, ../sass/screen.scss */
+body .content .content_feature .content_feature_right .serive_list {
+  padding: 40px 0px 10px 0px;
+}
+/* line 177, ../sass/screen.scss */
+body .content .content_feature .content_feature_right h2 {
+  font-size: 1.5em;
+}
+/* line 180, ../sass/screen.scss */
+body .content .content_feature .content_feature_right span {
+  color: #01A5CA;
+}
+/* line 183, ../sass/screen.scss */
+body .content .content_feature .content_feature_right ul {
+  color: #01A5CA;
+  margin-left: 10px;
+}
+/* line 188, ../sass/screen.scss */
+body .content .content_feature .content_feature_right li {
+  margin-top: 15px;
+  font-size: 0.9em;
+  position: relative;
+  padding-left: 17px;
+}
+/* line 195, ../sass/screen.scss */
+body .content .content_feature .content_feature_right li:before {
+  content: "\2b29";
+  left: 0;
+  position: absolute;
+}
+/* line 200, ../sass/screen.scss */
+body .content .content_feature .content_feature_right span {
+  color: black;
+}
+/* line 203, ../sass/screen.scss */
+body .content .content_feature .content_feature_right .findUs {
+  background-color: #fff;
+  padding-left: 10px;
+}
+/* line 206, ../sass/screen.scss */
+body .content .content_feature .content_feature_right .findUs h2 {
+  padding-top: 40px;
+}
+/* line 209, ../sass/screen.scss */
+body .content .content_feature .content_feature_right .findUs span {
+  color: #01A5CA;
+}
+/* line 212, ../sass/screen.scss */
+body .content .content_feature .content_feature_right .findUs .zipcode {
+  font-size: 16px;
+  width: 210px;
+  height: 40px;
+  margin-top: 20px;
+}
+/* line 218, ../sass/screen.scss */
+body .content .content_feature .content_feature_right .findUs .zipcode_btn {
+  font-size: 1em;
+  border: none;
+  margin-top: 20px;
+  background-color: #EBEBEB;
+  color: #01A5CA;
+  width: 100px;
+  height: 40px;
+}
+/* line 232, ../sass/screen.scss */
+body .footer {
+  clear: left;
+  padding-top: 35px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+/* line 237, ../sass/screen.scss */
+body .footer p {
+  line-height: 1.5em;
+}
